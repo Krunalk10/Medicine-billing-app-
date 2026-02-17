@@ -37,9 +37,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # Medicine-billing-app-
 
-Create a setup for neon use - Signup in neon tech create a project and connect to db. - Copy string in .env file. Write DATABASE_URL="".
+Create a setup for neon use - Signup in neon tech create a project and connect to db. 
+  - Copy string in .env file. Write DATABASE_URL="".
 
-Create a prisma setup - npm install prisma tsx @types/pg --save-dev - npm install @prisma/client @prisma/adapter-pg dotenv pg - npx prisma init --db --output ../app/generated/prisma
+Create a prisma setup
+  - npm install prisma tsx @types/pg --save-dev
+  - npm install @prisma/client @prisma/adapter-pg dotenv pg
+  - npx prisma init --db --output ../app/generated/prisma
 
 This will create:
 
