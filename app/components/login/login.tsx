@@ -3,9 +3,11 @@ import React from "react";
 const Login = () => {
 	return (
 		<div className="loginForm">
-			<h1 className="text-4xl flex text-">Login</h1>
-			<input type="text" />
-			<input type="password" required />
+			<div className="flex flex-col gap-3">
+				<h1 className="text-4xl flex justify-center">Login</h1>
+				<input id="email" type="email" required />
+				<input id="password" type="password" required />
+			</div>
 		</div>
 	);
 };
