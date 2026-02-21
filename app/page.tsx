@@ -3,7 +3,7 @@ import Login from "./components/login/login";
 
 const Homepage = () => {
 	return (
-		<div className="min-h-screen flex items-center justify-center bg-emerald-600">
+		<div className="min-h-screen flex items-center justify-center">
 			<Login />
 		</div>
 	);
